@@ -2,7 +2,7 @@
 # Deploy chacho static site to home-nixos-1
 set -euo pipefail
 
-TARGET_HOST="${1:-hn1}"
+TARGET_HOST="${1:-192.168.0.4}"
 TARGET_DIR="/var/www/chacho"
 
 echo "→ Deploying to ${TARGET_HOST}:${TARGET_DIR}"
